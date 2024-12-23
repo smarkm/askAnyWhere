@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extension Settings</title>
+
+  <!-- Add favicon for the top-right icon -->
+  <link rel="icon" href="path-to-your-icon.png" type="image/png">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      min-width: 320px;
+      position: relative; /* Set the position to relative for absolute elements inside */
+    }
+    label {
+      display: block;
+      margin: 10px 0;
+    }
+    input[type="text"], input[type="color"] {
+      margin-bottom: 10px;
+      height: 30px; /* Set height to 30px for both input types */
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color:#0d60fd;
+      border: 0;
+      color: white;
+    }
+    #add-button, #save {
+      padding: 8px 15px; /* Set padding to make button sizes consistent */
+    }
+
+    /* License Badge */
+    #license-badge {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      z-index: 9999;
+    }
+
+    /* Icon in the top-right corner */
+    #top-icon {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      width: 48px; /* Set width for the icon */
+      height: 48px; /* Set height for the icon */
+      cursor: pointer; /* Make the icon clickable if desired */
+    }
+  </style>
+</head>
+<body>
+  <h1>Ask AnyWhere(AAW)</h1>
+  <h1>Settings</h1>
+
+  <h2>Default Actions</h2>
+  <label><input type="checkbox" id="showGPT" checked> Show "Ask GPT"</label>
+  <label><input type="checkbox" id="showGoogle" checked> Show "Google"</label>
+  <label><input type="checkbox" id="showTwitter" checked> Show "Twitter(X)"</label>
+
+  <h2>Custom Actions</h2>
+  <div id="custom-buttons"></div>
+  <button id="add-button">Add Action</button>
+
+  <h2>Source Link & Donation</h2>
+  <label><input type="checkbox" id="showLicense">Show Source Link in action list</label>
+  
+  <button id="save" class="button">Save Settings</button>
+  <div>
+    
+  </div>
+
+  <!-- License badge placed at the bottom right corner -->
+  <div id="license-badge" src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
+    <!-- <img src="supportwechat.png" alt="" srcset="" style="height: 60px;width: 60px;">-->
+    
+     <a href="https://github.com/smarkm/askAnyWhere" target="_blank">
+      <img src="https://github.com/favicon.ico" alt="GitHub" title="Donation" />
+    </a>
+    <img src="supportpp.png" alt="" srcset="" style="height: 60px;width: 60px;">
+  </div>
+
+  <!-- Add your icon image in the top-right corner -->
+  <img id="top-icon" src="aawIcon.png" alt="Icon">
+
+  <script src="options.js"></script>
+</body>
+</html>
