@@ -1,5 +1,8 @@
 # Ask AnyWhere
 
+## Intro
+    This is a chrome plugin for easy perform any action in browser
+
 ## Easy perform any action in you browser
 demo gif later
 
