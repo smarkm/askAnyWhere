@@ -1,0 +1,52 @@
+// Copyright, 2024, Smark
+
+Privacy Policy
+
+Introduction
+
+This privacy policy outlines how your data is collected, used, and protected when you use our Chrome extension. By using this extension, you agree to the terms described herein.
+
+Information We Collect
+
+1. User Activity
+
+We may collect information related to your interactions with websites, including but not limited to:
+
+Network monitoring details (e.g., requests made and responses received).
+
+Clicks, mouse position, scrolling behavior, and keystroke logging.
+
+This data is collected to enhance the functionality of the extension and improve user experience.
+
+2. Website Content
+
+We may process website content while the extension is in use, such as:
+
+Text, images, sounds, videos, and hyperlinks displayed on visited pages.
+
+This information is used solely to enable the extension’s features, such as providing content-based enhancements or analytics.
+
+How We Use Your Information
+
+To provide the core functionality of the extension.
+
+To analyze usage patterns for improving the extension.
+
+Data Sharing and Security
+
+Sharing: We do not sell or share your data with third parties, except as required by law.
+
+Security: Collected data is securely stored and transmitted using industry-standard methods.
+
+User Consent
+
+By installing and using this Chrome extension, you consent to the collection and use of information as described in this policy.
+
+Changes to This Privacy Policy
+
+We reserve the right to update this privacy policy at any time. Changes will be posted on this page, and continued use of the extension after such updates constitutes acceptance of the revised policy.
+
+Contact Us
+
+If you have any questions or concerns about this privacy policy, please contact us at https://github.com/smarkm/askAnyWhere/issues.
+
