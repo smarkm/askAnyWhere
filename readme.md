@@ -1,6 +1,6 @@
 # Ask AnyWhere
 
-# Ask AnyWhere (AAW) - Empower Your Selected Text with Instant Actions
+# Empower Your Selected Text with Instant Actions
 
 Ask AnyWhere (AAW) transforms how you interact with text on the web. Seamlessly enhance your productivity with this powerful Chrome extension that unlocks a suite of actions based on the text you select on any website.
 
